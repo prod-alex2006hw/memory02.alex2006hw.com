@@ -4,7 +4,7 @@
 exports.HOSTNAME = "memory02.alex2006hw.com";
 
 exports.ROOT_MEMORIES = ["https://tropospheric.mybluemix.net/gun", "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun"];
-exports.CLOUD_MEMORIES = ["https://m2-ut-admin.193b.starter-ca-central-1.openshiftapps.com/gun", "https://dev-ut-redhat.193b.starter-ca-central-1.openshiftapps.com/gun", "https://dev-ut-memtwo.193b.starter-ca-central-1.openshiftapps.com/gun"];
+exports.CLOUD_MEMORIES = "https://m2-alex2006hw.193b.starter-ca-central-1.openshiftapps.com/gun";
 
 //exports.MY_MEMORY = "https://memory02.usertoken.com";
 //exports.PEER_MEMORIES = [
