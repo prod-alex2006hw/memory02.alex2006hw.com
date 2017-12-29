@@ -4,7 +4,7 @@
 exports.HOSTNAME = "memory02.alex2006hw.com";
 
 exports.ROOT_MEMORIES = ["https://tropospheric.mybluemix.net/gun", "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun"];
-var MY_MEMORY = "https://prod-pl-admin.193b.starter-ca-central-1.openshiftapps.com/gun";
+var MY_MEMORY = "https://m2-alex2006hw-gmail.7e14.starter-us-west-2.openshiftapps.com/gun";
 
 exports.CLOUD_MEMORIES = MY_MEMORY;
 
