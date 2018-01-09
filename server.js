@@ -754,7 +754,9 @@ app.get('/login/facebook/return', __WEBPACK_IMPORTED_MODULE_24__passport__["a" /
 // --------------------------------------------------------
 // get current hypernova
 
-var MY_HYPERNOVA = 'http://localhost:3030/batch';
+var HYPER_PORT = process.env.HYPER_PORT || 3030;
+var HYPER_HOST = process.env.HYPER_HOST || 'localhost';
+var MY_HYPERNOVA = "http://".concat(HYPER_HOST, ":").concat(HYPER_PORT, "/batch");
 var renderer = new __WEBPACK_IMPORTED_MODULE_16_hypernova_client___default.a({
   url: MY_HYPERNOVA,
   plugins: [__WEBPACK_IMPORTED_MODULE_18__vendors_devModePlugin___default.a]
